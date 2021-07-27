@@ -1,0 +1,22 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Khalid Hassan Sk",
+  "license": "MIT",
+  "dependencies": {
+    "buffer-image-size": "^0.6.4",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "sharp": "^0.27.2",
+    "socket.io": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
